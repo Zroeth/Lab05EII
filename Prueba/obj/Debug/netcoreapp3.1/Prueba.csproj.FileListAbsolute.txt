@@ -1,0 +1,13 @@
+e:\Cathy\Downloads\lab 5\lab05 prueba\Lab05\Prueba\bin\Debug\netcoreapp3.1\Prueba.exe
+e:\Cathy\Downloads\lab 5\lab05 prueba\Lab05\Prueba\bin\Debug\netcoreapp3.1\Prueba.deps.json
+e:\Cathy\Downloads\lab 5\lab05 prueba\Lab05\Prueba\bin\Debug\netcoreapp3.1\Prueba.runtimeconfig.json
+e:\Cathy\Downloads\lab 5\lab05 prueba\Lab05\Prueba\bin\Debug\netcoreapp3.1\Prueba.runtimeconfig.dev.json
+e:\Cathy\Downloads\lab 5\lab05 prueba\Lab05\Prueba\bin\Debug\netcoreapp3.1\Prueba.dll
+e:\Cathy\Downloads\lab 5\lab05 prueba\Lab05\Prueba\bin\Debug\netcoreapp3.1\Prueba.pdb
+e:\Cathy\Downloads\lab 5\lab05 prueba\Lab05\Prueba\obj\Debug\netcoreapp3.1\Prueba.csproj.AssemblyReference.cache
+e:\Cathy\Downloads\lab 5\lab05 prueba\Lab05\Prueba\obj\Debug\netcoreapp3.1\Prueba.AssemblyInfoInputs.cache
+e:\Cathy\Downloads\lab 5\lab05 prueba\Lab05\Prueba\obj\Debug\netcoreapp3.1\Prueba.AssemblyInfo.cs
+e:\Cathy\Downloads\lab 5\lab05 prueba\Lab05\Prueba\obj\Debug\netcoreapp3.1\Prueba.csproj.CoreCompileInputs.cache
+e:\Cathy\Downloads\lab 5\lab05 prueba\Lab05\Prueba\obj\Debug\netcoreapp3.1\Prueba.dll
+e:\Cathy\Downloads\lab 5\lab05 prueba\Lab05\Prueba\obj\Debug\netcoreapp3.1\Prueba.pdb
+e:\Cathy\Downloads\lab 5\lab05 prueba\Lab05\Prueba\obj\Debug\netcoreapp3.1\Prueba.genruntimeconfig.cache
