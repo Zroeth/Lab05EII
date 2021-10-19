@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zer0\\source\\repos\\Lab05\\Pruebas\\Pruebas.csproj",
+      "projectUniqueName": "C:\\Users\\Zer0\\Desktop\\Lab05EII-main\\Pruebas\\Pruebas.csproj",
       "projectName": "Pruebas",
-      "projectPath": "C:\\Users\\Zer0\\source\\repos\\Lab05\\Pruebas\\Pruebas.csproj",
+      "projectPath": "C:\\Users\\Zer0\\Desktop\\Lab05EII-main\\Pruebas\\Pruebas.csproj",
       "packagesPath": "C:\\Users\\Zer0\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Zer0\\source\\repos\\Lab05\\Pruebas\\obj\\",
+      "outputPath": "C:\\Users\\Zer0\\Desktop\\Lab05EII-main\\Pruebas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Programas\\VS SDK, Tools\\NuGetPackages"

@@ -19,3 +19,10 @@ C:\Users\Zer0\source\repos\Lab05\Lab05\obj\Debug\netcoreapp3.1\Lab05.RazorTarget
 C:\Users\Zer0\source\repos\Lab05\Lab05\obj\Debug\netcoreapp3.1\Lab05.dll
 C:\Users\Zer0\source\repos\Lab05\Lab05\obj\Debug\netcoreapp3.1\Lab05.pdb
 C:\Users\Zer0\source\repos\Lab05\Lab05\obj\Debug\netcoreapp3.1\Lab05.genruntimeconfig.cache
+C:\Users\Zer0\Desktop\Lab05EII-main\Lab05\obj\Debug\netcoreapp3.1\Lab05.csproj.AssemblyReference.cache
+C:\Users\Zer0\Desktop\Lab05EII-main\Lab05\obj\Debug\netcoreapp3.1\Lab05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zer0\Desktop\Lab05EII-main\Lab05\obj\Debug\netcoreapp3.1\Lab05.AssemblyInfoInputs.cache
+C:\Users\Zer0\Desktop\Lab05EII-main\Lab05\obj\Debug\netcoreapp3.1\Lab05.AssemblyInfo.cs
+C:\Users\Zer0\Desktop\Lab05EII-main\Lab05\obj\Debug\netcoreapp3.1\Lab05.csproj.CoreCompileInputs.cache
+C:\Users\Zer0\Desktop\Lab05EII-main\Lab05\obj\Debug\netcoreapp3.1\Lab05.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Zer0\Desktop\Lab05EII-main\Lab05\obj\Debug\netcoreapp3.1\Lab05.dll

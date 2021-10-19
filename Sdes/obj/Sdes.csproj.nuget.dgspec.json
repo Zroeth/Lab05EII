@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zer0\\source\\repos\\Lab05\\Sdes\\Sdes.csproj": {}
+    "C:\\Users\\Zer0\\Desktop\\Lab05EII-main\\Sdes\\Sdes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zer0\\source\\repos\\Lab05\\Sdes\\Sdes.csproj": {
+    "C:\\Users\\Zer0\\Desktop\\Lab05EII-main\\Sdes\\Sdes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zer0\\source\\repos\\Lab05\\Sdes\\Sdes.csproj",
+        "projectUniqueName": "C:\\Users\\Zer0\\Desktop\\Lab05EII-main\\Sdes\\Sdes.csproj",
         "projectName": "Sdes",
-        "projectPath": "C:\\Users\\Zer0\\source\\repos\\Lab05\\Sdes\\Sdes.csproj",
+        "projectPath": "C:\\Users\\Zer0\\Desktop\\Lab05EII-main\\Sdes\\Sdes.csproj",
         "packagesPath": "C:\\Users\\Zer0\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zer0\\source\\repos\\Lab05\\Sdes\\obj\\",
+        "outputPath": "C:\\Users\\Zer0\\Desktop\\Lab05EII-main\\Sdes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Programas\\VS SDK, Tools\\NuGetPackages"

@@ -75,12 +75,12 @@ namespace Sdes
                 cifrado[i] = encriptar.encriptar(LlavesArchivo[0], LlavesArchivo[1], cosas[i]);
 
             }
-            using (TextWriter writer = File.CreateText("Cifrados.txt"))
+            using (TextWriter escribir = File.CreateText("Cifrados.txt"))
             {
 
                 foreach (string i in cifrado)
                 {
-                    writer.Write(i+"|");
+                    escribir.Write(i+"|");
                 }
             }
 
@@ -102,12 +102,12 @@ namespace Sdes
 
 
             }
-            using (TextWriter writer = File.CreateText("DescifradoBin.txt"))
+            using (TextWriter escribir = File.CreateText("DescifradoBin.txt"))
             {
 
                 foreach (string i in Descifrado)
                 {
-                    writer.Write(i + "|");
+                    escribir.Write(i + "|");
                 }
             }
             Console.WriteLine("Se creo el archivo con los datos descifrados pero en binario");
@@ -115,18 +115,18 @@ namespace Sdes
             convertir = convertir.Remove(convertir.Length - 1);
             string[] aConvertir = convertir.Split('|');
             string s;
-            string result = "";
+            string final = "";
             for (int i = 0; i < aConvertir.Length; i++)
             {
 
 
                 s = aConvertir[i];
-                var first8 = s.Substring(0, 8);
-                var number = Convert.ToInt32(first8, 2);
-                result += (char)number;
+                var primeros = s.Substring(0, 8);
+                var enNumero = Convert.ToInt32(primeros, 2);
+                final += (char)enNumero;
                 
             }
-            System.IO.File.WriteAllText(@"Original.txt", result);
+            File.WriteAllText(@"Original.txt", final);
             Console.WriteLine("Se creo el archivo con los datos originales");
 
 
@@ -141,19 +141,6 @@ namespace Sdes
                 }
             }
             return true;
-        }
-        static Byte[] GetBytesFromBinaryString(String binary)
-        {
-            var list = new List<Byte>();
-
-            for (int i = 0; i < binary.Length; i += 8)
-            {
-                String t = binary.Substring(i, 8);
-
-                list.Add(Convert.ToByte(t, 2));
-            }
-
-            return list.ToArray();
         }
     }
 }
