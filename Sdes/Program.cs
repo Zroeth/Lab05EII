@@ -111,6 +111,7 @@ namespace Sdes
                 }
             }
             Console.WriteLine("Se creo el archivo con los datos descifrados pero en binario");
+
             string convertir = File.ReadAllText("DescifradoBin.txt", Encoding.UTF8);
             convertir = convertir.Remove(convertir.Length - 1);
             string[] aConvertir = convertir.Split('|');
