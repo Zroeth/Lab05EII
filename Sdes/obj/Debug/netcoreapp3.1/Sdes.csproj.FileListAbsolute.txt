@@ -12,3 +12,17 @@ C:\Users\Zer0\source\repos\Lab05\Sdes\obj\Debug\netcoreapp3.1\Sdes.csproj.CoreCo
 C:\Users\Zer0\source\repos\Lab05\Sdes\obj\Debug\netcoreapp3.1\Sdes.dll
 C:\Users\Zer0\source\repos\Lab05\Sdes\obj\Debug\netcoreapp3.1\Sdes.pdb
 C:\Users\Zer0\source\repos\Lab05\Sdes\obj\Debug\netcoreapp3.1\Sdes.genruntimeconfig.cache
+C:\Users\Zer0\Desktop\Lab05EII-main\Sdes\bin\Debug\netcoreapp3.1\Sdes.exe
+C:\Users\Zer0\Desktop\Lab05EII-main\Sdes\bin\Debug\netcoreapp3.1\Sdes.deps.json
+C:\Users\Zer0\Desktop\Lab05EII-main\Sdes\bin\Debug\netcoreapp3.1\Sdes.runtimeconfig.json
+C:\Users\Zer0\Desktop\Lab05EII-main\Sdes\bin\Debug\netcoreapp3.1\Sdes.runtimeconfig.dev.json
+C:\Users\Zer0\Desktop\Lab05EII-main\Sdes\bin\Debug\netcoreapp3.1\Sdes.dll
+C:\Users\Zer0\Desktop\Lab05EII-main\Sdes\bin\Debug\netcoreapp3.1\Sdes.pdb
+C:\Users\Zer0\Desktop\Lab05EII-main\Sdes\obj\Debug\netcoreapp3.1\Sdes.csproj.AssemblyReference.cache
+C:\Users\Zer0\Desktop\Lab05EII-main\Sdes\obj\Debug\netcoreapp3.1\Sdes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zer0\Desktop\Lab05EII-main\Sdes\obj\Debug\netcoreapp3.1\Sdes.AssemblyInfoInputs.cache
+C:\Users\Zer0\Desktop\Lab05EII-main\Sdes\obj\Debug\netcoreapp3.1\Sdes.AssemblyInfo.cs
+C:\Users\Zer0\Desktop\Lab05EII-main\Sdes\obj\Debug\netcoreapp3.1\Sdes.csproj.CoreCompileInputs.cache
+C:\Users\Zer0\Desktop\Lab05EII-main\Sdes\obj\Debug\netcoreapp3.1\Sdes.dll
+C:\Users\Zer0\Desktop\Lab05EII-main\Sdes\obj\Debug\netcoreapp3.1\Sdes.pdb
+C:\Users\Zer0\Desktop\Lab05EII-main\Sdes\obj\Debug\netcoreapp3.1\Sdes.genruntimeconfig.cache
