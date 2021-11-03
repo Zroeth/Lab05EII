@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Pruebas
+namespace RSA
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Worl!");
+            Console.WriteLine("Hello World!");
         }
     }
 }

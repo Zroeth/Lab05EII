@@ -7,61 +7,77 @@ namespace Pruebas
 {
     class GenerarLlave
     {
-        readonly Config configuracion = new Config();
-        public String GenerarLLaves(String llaveBinario)
+        public List<string> generarLlave(int p, int q)
         {
-
-            List<int> p1=configuracion.stringAInt(llaveBinario);
-            p1 = configuracion.P10(p1);
-            
-            string llave = string.Join("", p1.ToArray());
-            string s1Llaveizq = llave.Substring(0, 5);
-            string s1Llaveder = llave.Substring(5, 5);
-
-
-            s1Llaveizq = shiftIzq(s1Llaveizq);
-            //Console.WriteLine("Parte 1.2:" + s1Llaveizq);
-
-            s1Llaveder = shiftIzq(s1Llaveder);
-
-
-            string llave2 = this.generarLlave2(s1Llaveizq, s1Llaveder);
-            string llave1izq = s1Llaveizq.ToString().PadLeft(5, '0');
-            string llave1der = s1Llaveder.ToString().PadLeft(5, '0');
-
-            string llave1 = llave1izq + llave1der;
-
-            List<int> p2 = configuracion.stringAInt(llave1);
-            p2 = configuracion.P8(p2);
-
-            llave1 = string.Join("", p2.ToArray());
-
-            return llave1 + llave2;
+            List<string> llave = new List<string>();
+            int n = p * q;
+            int phi = (p - 1) * (q - 1);
+            int e = CalE(phi);
+            int d = calD(phi, e);
+            llave.Add(n + "," + e);
+            llave.Add(n + "," + d);
+            return llave;
         }
-        private String generarLlave2(String p1, String p2)
+
+        int CalE(int phi)
         {
-            string s2Llaveizq = shiftIzq(p1);
-            s2Llaveizq = shiftIzq(s2Llaveizq);
+            int e = 2;
+            int n = 2;
 
-            string s2Llaveder = shiftIzq(p2);
-            s2Llaveder = shiftIzq(s2Llaveder);
+            while (phi % e == 0)
+            {
+                bool esPrimo = true;
+                for (int i = 2; i < n; i++)
+                {
+                    if (n % i == 0)
+                    {
+                        esPrimo = false;
+                        break;
+                    }
+                }
 
-            string llave2 = s2Llaveizq + s2Llaveder;
+                if (esPrimo)
+                {
+                    e = n;
+                }
 
-            List<int> llavep2 = configuracion.stringAInt(llave2);
-            llavep2 = configuracion.P8(llavep2); 
+                n++;
+            }
 
-
-            llave2 = string.Join("", llavep2.ToArray());
-
-            return llave2;
+            return e;
         }
-        public static string shiftIzq(string linea)
+
+        int calD(int phi, int e)
         {
+            int numAux = 0;
+            int aux2 = 0;
+            int aux3 = 0;
+            int[,] intervalos = new int[2, 2];
+            intervalos[0, 0] = phi;
+            intervalos[0, 1] = phi;
+            intervalos[1, 0] = e;
+            intervalos[1, 1] = 1;
 
-            return linea.Substring(1, linea.Length - 1) + linea.Substring(0, 1);
+            while (intervalos[1, 0] != 1)
+            {
+                numAux = intervalos[0, 0] / intervalos[1, 0];
+                aux2 = intervalos[0, 0];
+                aux3 = intervalos[0, 1];
+                intervalos[0, 0] = intervalos[1, 0];
+                intervalos[0, 1] = intervalos[1, 1];
+                intervalos[1, 0] = aux2 - (intervalos[1, 0] * numAux);
+                intervalos[1, 1] = aux3 - (intervalos[1, 1] * numAux);
+
+                if (intervalos[1, 1] < 0)
+                {
+                    int numero = intervalos[1, 1];
+                    intervalos[1, 1] = (numero % phi + phi) % phi;
+                }
+            }
+
+            return intervalos[1, 1];
         }
-        
-
+       
     }
+  
 }
