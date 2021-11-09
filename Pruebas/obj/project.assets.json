@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\Cathy\\Documents\\git repos\\Pruebas\\Pruebas.csproj",
+      "projectUniqueName": "E:\\Cathy\\Documents\\git repos\\Pruebas\\Pruebas.csproj",
       "projectName": "Pruebas",
-      "projectPath": "e:\\Cathy\\Documents\\git repos\\Pruebas\\Pruebas.csproj",
+      "projectPath": "E:\\Cathy\\Documents\\git repos\\Pruebas\\Pruebas.csproj",
       "packagesPath": "C:\\Users\\Cathy\\.nuget\\packages\\",
-      "outputPath": "e:\\Cathy\\Documents\\git repos\\Pruebas\\obj\\",
+      "outputPath": "E:\\Cathy\\Documents\\git repos\\Pruebas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -57,8 +57,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "e:\\Cathy\\Documents\\git repos\\RSA\\RSA.csproj": {
-              "projectPath": "e:\\Cathy\\Documents\\git repos\\RSA\\RSA.csproj"
+            "E:\\Cathy\\Documents\\git repos\\RSA\\RSA.csproj": {
+              "projectPath": "E:\\Cathy\\Documents\\git repos\\RSA\\RSA.csproj"
             }
           }
         }
