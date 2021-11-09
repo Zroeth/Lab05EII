@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using RSA;
 
 namespace Pruebas
 {
@@ -16,7 +17,7 @@ namespace Pruebas
 
             Cifrado Cifrar = new Cifrado();
             FileStream filestream = new FileStream(@"..\\..\\Upload\\Cifrado.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
-            List<string> llaves = Cifrar.generarLlaves(25, 221);
+            List<string> llaves = Cifrar.generarLlave(25, 221);
 
             foreach (var item in llaves)
             {
@@ -37,8 +38,7 @@ namespace Pruebas
 
             FileStream writer = new FileStream(@"..\\..\\Upload\\Descifrado.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
 
-            Descifrar descifrado = new Descifrar();
-            List<byte> descifrar = descifrado.descifrar(filestream, n, d);
+            List<byte> descifrar = Cifrar.descifrar(filestream, n, d);
             writer.Write(descifrar.ToArray());
             writer.Close();
         }

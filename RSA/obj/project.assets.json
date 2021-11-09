@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Zer0\\.nuget\\packages\\": {},
-    "D:\\Programas\\VS SDK, Tools\\NuGetPackages": {}
+    "C:\\Users\\Cathy\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zer0\\Desktop\\Lab06 RSA\\RSA\\RSA.csproj",
+      "projectUniqueName": "e:\\Cathy\\Documents\\git repos\\RSA\\RSA.csproj",
       "projectName": "RSA",
-      "projectPath": "C:\\Users\\Zer0\\Desktop\\Lab06 RSA\\RSA\\RSA.csproj",
-      "packagesPath": "C:\\Users\\Zer0\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Zer0\\Desktop\\Lab06 RSA\\RSA\\obj\\",
+      "projectPath": "e:\\Cathy\\Documents\\git repos\\RSA\\RSA.csproj",
+      "packagesPath": "C:\\Users\\Cathy\\.nuget\\packages\\",
+      "outputPath": "e:\\Cathy\\Documents\\git repos\\RSA\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Programas\\VS SDK, Tools\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "D:\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Cathy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -32,8 +32,7 @@
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -65,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

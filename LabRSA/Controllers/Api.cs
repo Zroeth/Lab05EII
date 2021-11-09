@@ -43,7 +43,7 @@ namespace LabRSA.Controllers
             try
             {
                 Cifrado llaves = new Cifrado();
-                List<string> keys = llaves.generarLlaves(p, q);
+                List<string> keys = llaves.generarLlave(p, q);
                 KeyPublica.Write(keys[0]);
                 KeyPublica.Close();
                 KeyPrivada.Write(keys[1]);
@@ -71,7 +71,6 @@ namespace LabRSA.Controllers
         public async Task<IActionResult> cifrarDescifrar([FromForm] IFormFile file, [FromForm] IFormFile key, string nombre)
         {
             Cifrado Cifrado = new Cifrado();
-            Descifrar Descifra = new Descifrar();
             string ruta = @"\\Upload\\";
             string[] separacion = (key.FileName).Split('.');
             string fSep = separacion[0];
@@ -112,7 +111,7 @@ namespace LabRSA.Controllers
                     string[] data = linea.Split(',');
                     int n = Convert.ToInt32(data[0]);
                     int d = Convert.ToInt32(data[1]);
-                    List<byte> bytes = Descifra.descifrar(archivo, n, d);
+                    List<byte> bytes = Cifrado.descifrar(archivo, n, d);
                     nuevo.Write(bytes.ToArray());
                     nuevo.Close();
                     System.IO.File.Delete(ruta + file.FileName);

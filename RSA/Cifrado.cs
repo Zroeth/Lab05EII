@@ -6,7 +6,8 @@ using System.Numerics;
 
 namespace RSA
 {
-    public class Cifrado 
+    public class Cifrado : Interface1
+
     {
         public List<byte> RSACifrado(FileStream archivo, int n, int e)
         {
@@ -31,10 +32,52 @@ namespace RSA
 
             return lista;
         }
-        public List<string> generarLlaves(int p, int q)
+
+
+        public List<byte> descifrar(FileStream archivo, int n, int d)
         {
-             GenerarLlave Llave  = new GenerarLlave();
+            string mjsRecibido = "";
+            List<byte> bpb = new List<byte>();
+            int contador = 0;
+            var reader = new BinaryReader(archivo);
+            var buffer = new byte[2000000];
+            List<byte> bytes = new List<byte>();
+            while (reader.BaseStream.Position != reader.BaseStream.Length)
+            {
+                buffer = reader.ReadBytes(2000000);
+                foreach (var item in buffer)
+                {
+                    bytes.Add(item);
+                    if (bytes.Count == 8)
+                    {
+                        byte[] by = new byte[bytes.Count];
+                        foreach (var bytee in bytes)
+                        {
+                            by[contador] = bytee;
+                            contador++;
+                        }
+                        long num = BitConverter.ToInt32(by, 0);
+                        var ok = BigInteger.ModPow(num, (BigInteger)d, (BigInteger)n);
+                        bpb.Add((byte)ok);
+                        bytes.Clear();
+                        contador = 0;
+                    }
+                }
+            }
+            reader.Close();
+            archivo.Close();
+
+            return bpb;
+        }
+
+        public List<string> generarLlave(int p, int q)
+        {
+            GenerarLlave Llave = new GenerarLlave();
             return Llave.generarLlave(p, q);
         }
+
+       
+       
+        
     }
 }
