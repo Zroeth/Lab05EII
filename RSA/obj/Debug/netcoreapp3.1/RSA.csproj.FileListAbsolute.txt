@@ -31,3 +31,10 @@ E:\Cathy\Documents\git repos\RSA\obj\Debug\netcoreapp3.1\RSA.AssemblyInfo.cs
 E:\Cathy\Documents\git repos\RSA\obj\Debug\netcoreapp3.1\RSA.csproj.CoreCompileInputs.cache
 E:\Cathy\Documents\git repos\RSA\obj\Debug\netcoreapp3.1\RSA.dll
 E:\Cathy\Documents\git repos\RSA\obj\Debug\netcoreapp3.1\RSA.pdb
+e:\Cathy\Documents\git repos\RSA\bin\Debug\netcoreapp3.1\RSA.exe
+e:\Cathy\Documents\git repos\RSA\bin\Debug\netcoreapp3.1\RSA.deps.json
+e:\Cathy\Documents\git repos\RSA\bin\Debug\netcoreapp3.1\RSA.runtimeconfig.json
+e:\Cathy\Documents\git repos\RSA\bin\Debug\netcoreapp3.1\RSA.runtimeconfig.dev.json
+e:\Cathy\Documents\git repos\RSA\bin\Debug\netcoreapp3.1\RSA.dll
+e:\Cathy\Documents\git repos\RSA\bin\Debug\netcoreapp3.1\RSA.pdb
+e:\Cathy\Documents\git repos\RSA\obj\Debug\netcoreapp3.1\RSA.genruntimeconfig.cache

@@ -36,7 +36,7 @@ namespace RSA
 
         public List<byte> descifrar(FileStream archivo, int n, int d)
         {
-            string mjsRecibido = "";
+            
             List<byte> bpb = new List<byte>();
             int contador = 0;
             var reader = new BinaryReader(archivo);
