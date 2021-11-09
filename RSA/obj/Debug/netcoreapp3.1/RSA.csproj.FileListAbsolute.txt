@@ -25,3 +25,9 @@ C:\Users\Zer0\Desktop\Lab06 RSA\RSA\bin\Debug\netcoreapp3.1\RSA.dll
 C:\Users\Zer0\Desktop\Lab06 RSA\RSA\bin\Debug\netcoreapp3.1\RSA.pdb
 C:\Users\Zer0\Desktop\Lab06 RSA\RSA\obj\Debug\netcoreapp3.1\RSA.dll
 C:\Users\Zer0\Desktop\Lab06 RSA\RSA\obj\Debug\netcoreapp3.1\RSA.genruntimeconfig.cache
+E:\Cathy\Documents\git repos\RSA\obj\Debug\netcoreapp3.1\RSA.csproj.AssemblyReference.cache
+E:\Cathy\Documents\git repos\RSA\obj\Debug\netcoreapp3.1\RSA.AssemblyInfoInputs.cache
+E:\Cathy\Documents\git repos\RSA\obj\Debug\netcoreapp3.1\RSA.AssemblyInfo.cs
+E:\Cathy\Documents\git repos\RSA\obj\Debug\netcoreapp3.1\RSA.csproj.CoreCompileInputs.cache
+E:\Cathy\Documents\git repos\RSA\obj\Debug\netcoreapp3.1\RSA.dll
+E:\Cathy\Documents\git repos\RSA\obj\Debug\netcoreapp3.1\RSA.pdb

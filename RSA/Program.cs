@@ -16,7 +16,7 @@ namespace RSA
 
             Cifrado Cifrar = new Cifrado();
             FileStream filestream = new FileStream(@"..\\..\\Upload\\Cifrado.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
-            List<string> llaves = Cifrar.generarLlaves(25, 211);
+            List<string> llaves = Cifrar.generarLlave(25, 211);
 
             foreach (var item in llaves)
             {
@@ -37,8 +37,7 @@ namespace RSA
 
             FileStream writer = new FileStream(@"..\\..\\Upload\\Descifrado.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
 
-            Descifrar descifrado = new Descifrar();
-            List<byte> descifrar = descifrado.descifrar(filestream, n, d);
+            List<byte> descifrar = Cifrar.descifrar(filestream, n, d);
             writer.Write(descifrar.ToArray());
             writer.Close();
         }
