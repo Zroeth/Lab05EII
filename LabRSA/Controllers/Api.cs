@@ -66,7 +66,7 @@ namespace LabRSA.Controllers
             }
         }
 
-        [HttpPost("{nombre}")]
+        [HttpPost("rsa/{nombre}")]
         [RequestSizeLimit(40971520)]
         public async Task<IActionResult> cifrarDescifrar([FromForm] IFormFile file, [FromForm] IFormFile key, string nombre)
         {
