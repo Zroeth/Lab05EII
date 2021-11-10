@@ -1,0 +1,14 @@
+C:\Users\Zer0\Desktop\Lab06 RSA\Pruebas\bin\Debug\netcoreapp3.1\Pruebas.exe
+C:\Users\Zer0\Desktop\Lab06 RSA\Pruebas\bin\Debug\netcoreapp3.1\Pruebas.deps.json
+C:\Users\Zer0\Desktop\Lab06 RSA\Pruebas\bin\Debug\netcoreapp3.1\Pruebas.runtimeconfig.json
+C:\Users\Zer0\Desktop\Lab06 RSA\Pruebas\bin\Debug\netcoreapp3.1\Pruebas.runtimeconfig.dev.json
+C:\Users\Zer0\Desktop\Lab06 RSA\Pruebas\bin\Debug\netcoreapp3.1\Pruebas.dll
+C:\Users\Zer0\Desktop\Lab06 RSA\Pruebas\bin\Debug\netcoreapp3.1\Pruebas.pdb
+C:\Users\Zer0\Desktop\Lab06 RSA\Pruebas\obj\Debug\netcoreapp3.1\Pruebas.csproj.AssemblyReference.cache
+C:\Users\Zer0\Desktop\Lab06 RSA\Pruebas\obj\Debug\netcoreapp3.1\Pruebas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zer0\Desktop\Lab06 RSA\Pruebas\obj\Debug\netcoreapp3.1\Pruebas.AssemblyInfoInputs.cache
+C:\Users\Zer0\Desktop\Lab06 RSA\Pruebas\obj\Debug\netcoreapp3.1\Pruebas.AssemblyInfo.cs
+C:\Users\Zer0\Desktop\Lab06 RSA\Pruebas\obj\Debug\netcoreapp3.1\Pruebas.csproj.CoreCompileInputs.cache
+C:\Users\Zer0\Desktop\Lab06 RSA\Pruebas\obj\Debug\netcoreapp3.1\Pruebas.dll
+C:\Users\Zer0\Desktop\Lab06 RSA\Pruebas\obj\Debug\netcoreapp3.1\Pruebas.pdb
+C:\Users\Zer0\Desktop\Lab06 RSA\Pruebas\obj\Debug\netcoreapp3.1\Pruebas.genruntimeconfig.cache
