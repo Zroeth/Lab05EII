@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zer0\\Desktop\\git repos\\RSA\\RSA.csproj": {}
+    "C:\\Users\\Zer0\\Desktop\\RSA\\RSA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zer0\\Desktop\\git repos\\RSA\\RSA.csproj": {
+    "C:\\Users\\Zer0\\Desktop\\RSA\\RSA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zer0\\Desktop\\git repos\\RSA\\RSA.csproj",
+        "projectUniqueName": "C:\\Users\\Zer0\\Desktop\\RSA\\RSA.csproj",
         "projectName": "RSA",
-        "projectPath": "C:\\Users\\Zer0\\Desktop\\git repos\\RSA\\RSA.csproj",
+        "projectPath": "C:\\Users\\Zer0\\Desktop\\RSA\\RSA.csproj",
         "packagesPath": "C:\\Users\\Zer0\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zer0\\Desktop\\git repos\\RSA\\obj\\",
+        "outputPath": "C:\\Users\\Zer0\\Desktop\\RSA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Programas\\VS SDK, Tools\\NuGetPackages"

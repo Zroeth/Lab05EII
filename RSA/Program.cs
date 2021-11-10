@@ -9,14 +9,16 @@ namespace RSA
     {
         static void Main(string[] args)
         {
+
             int n = 0;
             int e = 0;
             int d = 0;
             int cont = 0;
 
             Cifrado Cifrar = new Cifrado();
-            FileStream filestream = new FileStream(@"..\\..\\Upload\\Cifrado.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
-            List<string> llaves = Cifrar.generarLlave(25, 211);
+            FileStream filestream = new FileStream(@"e:\Cathy\Downloads\decifrado rsa\Lab05EII-RSA\LabRSA\wwwroot\Upload\Cifrado.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            List<string> llaves = Cifrar.generarLlave(2, 3);
+
 
             foreach (var item in llaves)
             {
@@ -35,7 +37,7 @@ namespace RSA
                 }
             }
 
-            FileStream writer = new FileStream(@"..\\..\\Upload\\Descifrado.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            FileStream writer = new FileStream(@"e:\Cathy\Downloads\decifrado rsa\Lab05EII-RSA\LabRSA\wwwroot\Upload\descifrado.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
 
             List<byte> descifrar = Cifrar.descifrar(filestream, n, d);
             writer.Write(descifrar.ToArray());

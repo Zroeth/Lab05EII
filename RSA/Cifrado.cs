@@ -19,8 +19,8 @@ namespace RSA
                 buffer = reader.ReadBytes(2000000);
                 foreach (var item in buffer)
                 {
-                    var ok = BigInteger.ModPow(item, (BigInteger)e, (BigInteger)n);
-                    byte[] bytes = BitConverter.GetBytes((long)ok);
+                    var variables = BigInteger.ModPow(item, (BigInteger)e, (BigInteger)n);
+                    byte[] bytes = BitConverter.GetBytes((long)variables);
                     foreach (var b in bytes)
                     {
                         lista.Add(b);
@@ -36,8 +36,9 @@ namespace RSA
 
         public List<byte> descifrar(FileStream archivo, int n, int d)
         {
-            
-            List<byte> bpb = new List<byte>();
+
+            string mensaje = "";
+            List<byte> arch = new List<byte>();
             int contador = 0;
             var reader = new BinaryReader(archivo);
             var buffer = new byte[2000000];
@@ -50,15 +51,15 @@ namespace RSA
                     bytes.Add(item);
                     if (bytes.Count == 8)
                     {
-                        byte[] by = new byte[bytes.Count];
-                        foreach (var bytee in bytes)
+                        byte[] countby = new byte[bytes.Count];
+                        foreach (var cobytes in bytes)
                         {
-                            by[contador] = bytee;
+                            countby[contador] = cobytes;
                             contador++;
                         }
-                        long num = BitConverter.ToInt32(by, 0);
-                        var ok = BigInteger.ModPow(num, (BigInteger)d, (BigInteger)n);
-                        bpb.Add((byte)ok);
+                        long num = BitConverter.ToInt32(countby, 0);
+                        var variables = Convert.ToString(BigInteger.ModPow(num, (BigInteger)d, (BigInteger)n));
+                        arch.Add((byte)int.Parse(variables));
                         bytes.Clear();
                         contador = 0;
                     }
@@ -67,7 +68,7 @@ namespace RSA
             reader.Close();
             archivo.Close();
 
-            return bpb;
+            return arch;
         }
 
         public List<string> generarLlave(int p, int q)
